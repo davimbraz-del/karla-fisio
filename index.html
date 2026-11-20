@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Karine Salvador · Fisioterapia Esportiva</title>
+  <meta name="description" content="Karine Salvador, fisioterapeuta esportiva. Prevenção, reabilitação, recuperação muscular e fisioterapia para atletas de areia. Agende sua avaliação pelo WhatsApp.">
+  <meta name="theme-color" content="#F7EFE6">
+  <meta property="og:title" content="Karine Salvador · Fisioterapia Esportiva">
+  <meta property="og:description" content="Movimento sem dor, performance sem limite. Agende sua avaliação.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Ícones / ilustrações em traço -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-sun" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="24" cy="24" r="9"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/></g></symbol>
+    <symbol id="i-ball" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="24" cy="24" r="18"/><path d="M24 6c-5 6-6 14-2 20s12 8 19 5M7 18c7-1 14 1 18 7M14 39c1-7 5-12 11-14"/></g></symbol>
+    <symbol id="i-net" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 12v30M42 12v30M6 14h36M6 30h36"/><path d="M12 14v16M18 14v16M24 14v16M30 14v16M36 14v16M6 22h36"/></g></symbol>
+    <symbol id="i-palm" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 18c1 9 0 17-3 26"/><path d="M24 18c-4-6-11-7-17-4 6 0 11 2 13 6M24 18c4-6 11-7 17-4-6 0-11 2-13 6M24 18c-2-6-1-11 4-14-2 4-2 8-1 11M24 18c-6-3-12-1-15 5M24 18c6-3 12-1 15 5"/><path d="M12 44h22"/></g></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 5l15 6v11c0 10-6.5 17-15 21-8.5-4-15-11-15-21V11z"/><path d="M17 24l5 5 9-10"/></g></symbol>
+    <symbol id="i-knee" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 4c0 8 2 13 6 17s5 9 3 15l-3 8"/><path d="M30 4c0 7 1 11 4 15"/><circle cx="31" cy="25" r="4"/><path d="M8 34c4-2 8-2 12 0M28 44h10"/></g></symbol>
+    <symbol id="i-hands" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 30c6-1 10 1 14 5l4 4M42 30c-6-1-10 1-14 5"/><path d="M14 24c2-6 6-10 10-10s8 4 10 10"/><path d="M20 10l1 3M28 10l-1 3M24 6v4"/></g></symbol>
+    <symbol id="i-run" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="30" cy="8" r="4"/><path d="M14 20l8-5 8 3 4 7 6 1M22 15l-3 12 8 6-3 11M19 27l-7 6-6-1"/></g></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3c.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  </defs>
+</svg>
+
+<header class="topbar" id="topo">
+  <div class="container topbar__inner">
+    <a href="#topo" class="brand" aria-label="Karine Salvador, início">
+      <svg class="brand__sun"><use href="#i-sun"/></svg>
+      <span>Karine <em>Salvador</em></span>
+    </a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Atendimento</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#entre-elas">Entre Elas Club</a>
+    </nav>
+    <a class="btn btn--sm" data-wa="Oi, Karine! Vim pelo site e quero agendar uma avaliação." href="#">
+      <svg class="ico"><use href="#i-wa"/></svg> Agendar
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. HERO -->
+  <section class="hero">
+    <svg class="deco deco--sun-lg spin-slow" aria-hidden="true"><use href="#i-sun"/></svg>
+    <svg class="deco deco--spark s1" aria-hidden="true"><use href="#i-spark"/></svg>
+    <svg class="deco deco--spark s2" aria-hidden="true"><use href="#i-spark"/></svg>
+    <div class="container hero__grid">
+      <div class="hero__text reveal">
+        <span class="badge"><svg><use href="#i-spark"/></svg> Fisioterapeuta esportiva</span>
+        <h1 class="display">Movimento sem dor,<br><span class="hl">performance</span> sem limite</h1>
+        <p class="lead">Fisioterapia esportiva para quem vive o esporte de verdade, da areia ao tatame.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--lg" data-wa="Oi, Karine! Quero agendar uma avaliação." href="#">
+            <svg class="ico"><use href="#i-wa"/></svg> Agendar avaliação
+          </a>
+          <a class="link-arrow" href="#servicos">Como posso te ajudar <svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+        <p class="signature">rotina real, saúde &amp; movimento</p>
+      </div>
+      <div class="hero__media reveal reveal--right">
+        <div class="photo photo--hero" data-img="assets/img/hero.jpg" style="background-image:url('assets/img/hero.jpg'), var(--ph)" role="img" aria-label="Karine sorrindo em uma quadra de areia no fim de tarde">
+          <span class="photo__hint">foto: hero.jpg</span>
+        </div>
+        <div class="float-card float-card--a">
+          <svg><use href="#i-ball"/></svg>
+          <div><strong>Atletas de areia</strong><small>futevôlei · beach tennis · vôlei</small></div>
+        </div>
+        <div class="float-card float-card--b">
+          <svg><use href="#i-sun"/></svg>
+          <div><strong>Cuidado + performance</strong><small>prevenir, tratar, voltar</small></div>
+        </div>
+      </div>
+    </div>
+    <svg class="wave wave--to-peach" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c180 35 360 40 540 18S900 0 1080 14s270 50 360 46v30H0z"/></svg>
+  </section>
+
+  <!-- 2. SOBRE -->
+  <section class="section section--peach" id="sobre">
+    <div class="container about">
+      <div class="about__media reveal">
+        <div class="photo photo--about" data-img="assets/img/atendimento.jpg" style="background-image:url('assets/img/atendimento.jpg'), var(--ph)" role="img" aria-label="Karine em atendimento com uma paciente">
+          <span class="photo__hint">foto: atendimento.jpg</span>
+        </div>
+        <svg class="deco deco--palm" aria-hidden="true"><use href="#i-palm"/></svg>
+      </div>
+      <div class="about__text reveal reveal--right">
+        <p class="kicker">Sobre mim</p>
+        <h2 class="display display--md">Oi, eu sou a <span class="serif">Karine</span></h2>
+        <p>Sou fisioterapeuta esportiva e o esporte sempre fez parte da minha rotina. Comecei na água, com a natação, me apaixonei pela intensidade do muay thai e hoje a areia do futevôlei é praticamente minha segunda casa.</p>
+        <p>Por viver isso na pele, eu sei como é sentir aquela dor que atrapalha o treino, ter medo de piorar uma lesão ou ficar ansiosa para voltar logo. É por isso que cada atendimento meu começa ouvindo você: sua rotina, seus objetivos e o que o seu corpo está pedindo.</p>
+        <p>Meu trabalho é unir cuidado e performance para você treinar com mais segurança, se recuperar bem e seguir fazendo o que ama.</p>
+        <ul class="chips">
+          <li><svg><use href="#i-ball"/></svg> Futevôlei</li>
+          <li><svg><use href="#i-hands"/></svg> Muay thai</li>
+          <li><svg><use href="#i-sun"/></svg> Natação</li>
+        </ul>
+      </div>
+    </div>
+    <svg class="wave wave--to-cream" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c200 40 420 50 640 26S1040 0 1220 10s180 30 220 34v46H0z"/></svg>
+  </section>
+
+  <!-- 3. SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker">Como posso te ajudar</p>
+        <h2 class="display display--md">Cuidado pra <span class="serif">treinar melhor</span></h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card__ico"><svg><use href="#i-shield"/></svg></span>
+          <h3>Prevenção de lesões no esporte</h3>
+          <p>Avalio seus movimentos, força e mobilidade para identificar pontos de risco antes que virem dor.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__ico"><svg><use href="#i-knee"/></svg></span>
+          <h3>Reabilitação de lesões</h3>
+          <p>Entorses, tendinites, dores no ombro, joelho ou lombar: tratamento ativo e pensado para o seu esporte.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__ico"><svg><use href="#i-hands"/></svg></span>
+          <h3>Recuperação e liberação muscular</h3>
+          <p>Técnicas manuais e recursos para aliviar tensão, acelerar a recuperação e deixar o corpo pronto pro próximo treino.</p>
+        </article>
+        <article class="card card--feature reveal">
+          <span class="card__ico"><svg><use href="#i-ball"/></svg></span>
+          <h3>Fisioterapia para atletas de areia</h3>
+          <p>Futevôlei, beach tennis e vôlei têm demandas próprias. Eu conheço a areia por dentro e trabalho em cima delas.</p>
+          <svg class="card__net" aria-hidden="true"><use href="#i-net"/></svg>
+        </article>
+        <article class="card reveal">
+          <span class="card__ico"><svg><use href="#i-run"/></svg></span>
+          <h3>Acompanhamento para retorno ao esporte</h3>
+          <p>Volta gradual e com critérios claros, para você retomar os treinos com confiança e sem recaídas.</p>
+        </article>
+        <a class="card card--cta reveal" data-wa="Oi, Karine! Queria tirar uma dúvida sobre o meu caso." href="#">
+          <h3>Não achou o seu caso?</h3>
+          <p>Me conta o que está sentindo que eu te digo como posso ajudar.</p>
+          <span class="link-arrow">Falar comigo <svg class="ico"><use href="#i-arrow"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PARA QUEM É -->
+  <section class="section section--brown" id="para-quem">
+    <svg class="wave wave--top" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c240-30 480-40 720-14s480 40 720 10V0H0z"/></svg>
+    <svg class="deco deco--spark s3" aria-hidden="true"><use href="#i-spark"/></svg>
+    <div class="container forwho">
+      <div class="forwho__head reveal">
+        <p class="kicker kicker--light">Para quem é</p>
+        <h2 class="display display--md">Se você se vê aqui, <span class="serif">vem comigo</span></h2>
+      </div>
+      <ul class="forwho__list">
+        <li class="reveal"><svg><use href="#i-spark"/></svg><div><strong>Atletas amadores e profissionais</strong><span>que querem render mais e se machucar menos.</span></div></li>
+        <li class="reveal"><svg><use href="#i-spark"/></svg><div><strong>Mulheres que treinam</strong><span>e querem um olhar atento às particularidades do corpo feminino.</span></div></li>
+        <li class="reveal"><svg><use href="#i-spark"/></svg><div><strong>Quem sente dor ao treinar</strong><span>e já cansou de “esperar passar”.</span></div></li>
+        <li class="reveal"><svg><use href="#i-spark"/></svg><div><strong>Quem quer voltar ao esporte</strong><span>depois de uma lesão, com segurança e sem pressa errada.</span></div></li>
+      </ul>
+    </div>
+    <svg class="wave wave--to-cream" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c180 35 360 40 540 18S900 0 1080 14s270 50 360 46v30H0z"/></svg>
+  </section>
+
+  <!-- 5. COMO FUNCIONA -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="kicker">Como funciona o atendimento</p>
+        <h2 class="display display--md">Simples, do <span class="serif">primeiro oi</span> ao retorno</h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__num">01</span>
+          <svg class="step__ico"><use href="#i-wa"/></svg>
+          <h3>Contato pelo WhatsApp</h3>
+          <p>Você me chama, me conta o que está sentindo e a gente escolhe o melhor horário.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">02</span>
+          <svg class="step__ico"><use href="#i-knee"/></svg>
+          <h3>Avaliação completa</h3>
+          <p>Entendo sua história, seu esporte e testo movimento, força e mobilidade.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">03</span>
+          <svg class="step__ico"><use href="#i-sun"/></svg>
+          <h3>Plano personalizado</h3>
+          <p>Monto um tratamento sob medida para a sua rotina e os seus objetivos.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">04</span>
+          <svg class="step__ico"><use href="#i-run"/></svg>
+          <h3>Acompanhamento</h3>
+          <p>Ajustamos o plano a cada etapa até você estar de volta, mais forte.</p>
+        </li>
+      </ol>
+      <div class="center reveal">
+        <a class="btn btn--lg" data-wa="Oi, Karine! Quero dar o primeiro passo e agendar minha avaliação." href="#">
+          <svg class="ico"><use href="#i-wa"/></svg> Quero dar o primeiro passo
+        </a>
+      </div>
+    </div>
+    <svg class="wave wave--to-sun" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c200 40 420 50 640 26S1040 0 1220 10s180 30 220 34v46H0z"/></svg>
+  </section>
+
+  <!-- 6. ENTRE ELAS CLUB -->
+  <section class="section section--club" id="entre-elas">
+    <svg class="deco deco--sun-club spin-slow" aria-hidden="true"><use href="#i-sun"/></svg>
+    <svg class="deco deco--spark s4" aria-hidden="true"><use href="#i-spark"/></svg>
+    <svg class="deco deco--spark s5" aria-hidden="true"><use href="#i-spark"/></svg>
+    <div class="container club">
+      <div class="club__text reveal">
+        <div class="club-logo" aria-label="entre elas club">
+          <svg class="club-logo__sun"><use href="#i-sun"/></svg>
+          <span>entre elas <b>club</b></span>
+        </div>
+        <h2 class="display display--md">Futevôlei, amizade e <span class="serif">sol na pele</span></h2>
+        <p>O Entre Elas Club é o evento de futevôlei que eu idealizei para mulheres: um encontro na areia para treinar, jogar, se conectar e se fortalecer juntas.</p>
+        <p>Não importa se você está começando agora ou já joga há anos. Aqui o clima é de acolhimento, troca e muita energia boa, do aquecimento ao último ponto.</p>
+        <ul class="club__list">
+          <li><svg><use href="#i-ball"/></svg> Jogos e treinos para todos os níveis</li>
+          <li><svg><use href="#i-hands"/></svg> Comunidade de mulheres que se apoiam</li>
+          <li><svg><use href="#i-shield"/></svg> Dicas de prevenção e cuidado com o corpo</li>
+        </ul>
+        <div class="hero__ctas">
+          <a class="btn btn--lg btn--dark" data-wa="Oi, Karine! Quero saber da próxima edição do Entre Elas Club." href="#">
+            <svg class="ico"><use href="#i-sun"/></svg> Quero participar
+          </a>
+          <a class="link-arrow" data-ig href="#">Acompanhar no Instagram <svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+      <div class="club__media reveal reveal--right">
+        <div class="photo photo--club1" data-img="assets/img/entre-elas-1.jpg" style="background-image:url('assets/img/entre-elas-1.jpg'), var(--ph)" role="img" aria-label="Mulheres jogando futevôlei no Entre Elas Club">
+          <span class="photo__hint">foto: entre-elas-1.jpg</span>
+        </div>
+        <div class="photo photo--club2" data-img="assets/img/entre-elas-2.jpg" style="background-image:url('assets/img/entre-elas-2.jpg'), var(--ph)" role="img" aria-label="Participantes do Entre Elas Club reunidas na areia">
+          <span class="photo__hint">foto: entre-elas-2.jpg</span>
+        </div>
+      </div>
+    </div>
+    <svg class="wave wave--to-cream" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c180 35 360 40 540 18S900 0 1080 14s270 50 360 46v30H0z"/></svg>
+  </section>
+
+  <!-- 7. CONTEÚDO / ROTINA REAL -->
+  <section class="section" id="conteudo">
+    <div class="container content">
+      <div class="content__text reveal">
+        <p class="kicker">Rotina real, saúde &amp; movimento</p>
+        <h2 class="display display--md">Bora junto <span class="serif">no dia a dia?</span></h2>
+        <p>No Instagram eu divido minha rotina de treinos, dicas de prevenção, exercícios que eu uso com pacientes e os bastidores da areia. Tudo sem filtro de perfeição, do jeito que a vida real é.</p>
+        <a class="btn btn--outline" data-ig href="#"><svg class="ico"><use href="#i-ig"/></svg> Me segue no Instagram</a>
+      </div>
+      <div class="content__grid reveal reveal--right">
+        <div class="photo photo--sq" data-img="assets/img/rotina-1.jpg" style="background-image:url('assets/img/rotina-1.jpg'), var(--ph)" role="img" aria-label="Karine treinando na praia"><span class="photo__hint">rotina-1.jpg</span></div>
+        <div class="photo photo--sq" data-img="assets/img/rotina-2.jpg" style="background-image:url('assets/img/rotina-2.jpg'), var(--ph)" role="img" aria-label="Golden hour na quadra de areia"><span class="photo__hint">rotina-2.jpg</span></div>
+        <div class="photo photo--sq" data-img="assets/img/rotina-3.jpg" style="background-image:url('assets/img/rotina-3.jpg'), var(--ph)" role="img" aria-label="Exercício de fortalecimento"><span class="photo__hint">rotina-3.jpg</span></div>
+        <div class="photo photo--sq" data-img="assets/img/rotina-4.jpg" style="background-image:url('assets/img/rotina-4.jpg'), var(--ph)" role="img" aria-label="Karine atendendo um atleta"><span class="photo__hint">rotina-4.jpg</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FAQ -->
+  <section class="section section--peach section--tight" id="duvidas">
+    <svg class="wave wave--top wave--top-cream" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c240-30 480-40 720-14s480 40 720 10V0H0z"/></svg>
+    <div class="container faq">
+      <div class="section__head reveal">
+        <p class="kicker">Dúvidas frequentes</p>
+        <h2 class="display display--md">Antes de <span class="serif">me chamar</span></h2>
+      </div>
+      <div class="faq__list reveal">
+        <details>
+          <summary>Preciso de pedido médico para agendar?</summary>
+          <p>Não. Você pode agendar sua avaliação diretamente comigo. Se tiver exames ou laudos, é só levar no dia que eles ajudam bastante.</p>
+        </details>
+        <details>
+          <summary>Não sou atleta. Posso ser atendida mesmo assim?</summary>
+          <p>Claro! Se você treina, se movimenta ou quer começar e sente alguma dor ou insegurança, a fisioterapia esportiva é para você.</p>
+        </details>
+        <details>
+          <summary>Quanto tempo dura a avaliação?</summary>
+          <p>Em média uma hora. É o momento de entender sua história com calma e testar seus movimentos para montar o plano certo.</p>
+        </details>
+        <details>
+          <summary>Como faço para agendar?</summary>
+          <p>É só clicar em qualquer botão de agendamento desta página. Você cai direto no meu WhatsApp e a gente combina tudo por lá.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. CTA FINAL -->
+  <section class="final">
+    <svg class="deco deco--sun-final spin-slow" aria-hidden="true"><use href="#i-sun"/></svg>
+    <div class="container final__inner reveal">
+      <h2 class="display">Seu corpo pede <span class="hl hl--dark">movimento</span>.<br>Eu cuido do resto.</h2>
+      <p class="lead">Agende sua avaliação e vamos juntas (e juntos) colocar você de volta no jogo.</p>
+      <a class="btn btn--lg btn--dark" data-wa="Oi, Karine! Quero agendar minha avaliação." href="#">
+        <svg class="ico"><use href="#i-wa"/></svg> Agendar avaliação pelo WhatsApp
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <a href="#topo" class="brand brand--light"><svg class="brand__sun"><use href="#i-sun"/></svg><span>Karine <em>Salvador</em></span></a>
+      <p class="footer__tag">Fisioterapeuta esportiva · criadora de conteúdo · idealizadora do Entre Elas Club</p>
+    </div>
+    <div class="footer__links">
+      <a data-wa="Oi, Karine! Vim pelo site." href="#"><svg class="ico"><use href="#i-wa"/></svg> WhatsApp</a>
+      <a data-ig href="#"><svg class="ico"><use href="#i-ig"/></svg> Instagram</a>
+    </div>
+  </div>
+  <p class="footer__copy container">© <span id="ano"></span> Karine Salvador. Feito com sol.</p>
+</footer>
+
+<a class="wa-float" data-wa="Oi, Karine! Vim pelo site e quero agendar uma avaliação." href="#" aria-label="Agendar pelo WhatsApp">
+  <svg><use href="#i-wa"/></svg>
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
